@@ -1,0 +1,126 @@
+/* 
+  will-change: filter; */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  color: rgba(77, 77, 77, 1);
+  background-color: rgba(255,247,237,1);
+
+  min-height: calc(100vh - 100px);
+}
+img{
+  width: 100%;
+  object-fit: cover;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  min-height: calc(100vh - 192px); 
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.nav-button, .nav-btn-style{
+  height: 34px;
+  padding: 6px 18px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 234, 208, 1);
+  cursor: pointer;
+  color: rgba(37, 37, 37, 1);
+  transition: .3s all cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-btn-style{
+  color: rgba(255, 255, 255, 0.845);
+  
+}
+
+@media (min-width: 758px) {
+  .nav-button{
+    padding: 6px 26px;
+  }
+}
+.nav-button:focus{
+  outline:none;
+}
+.nav-button:hover {
+  background-color: rgba(225, 118, 84, 1);
+  color: rgba(255, 255, 255, 0.845);
+}
+
+
+.nav-button.selected {
+  background-color: rgba(225, 118, 84, 1);
+  color: rgba(255, 255, 255, 0.845);
+}
+.nav-button.simple.selected {
+  background-color: #E17654;
+}
+.nav-button.rugged.selected {
+  background-color: #115E59;
+}
+.nav-button.luxury.selected {
+  background-color: #161616;
+}
+
+.nav-btn-style.simple {
+  background-color: #E17654;
+}
+.nav-btn-style.rugged {
+  background-color: #115E59;
+}
+.nav-btn-style.luxury {
+  background-color: #161616;
+}
+
+
+
+/* GLOBAL STYLES */
+.HeaderTitle{
+  color: rgba(22, 22, 22, 1);
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  font-size: 43px;
+}
+
+
+.orange-btn{
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  background: rgba(255, 140, 56, 1);
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  color: rgba(255, 234, 208, 1);
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
