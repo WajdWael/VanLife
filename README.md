@@ -42,7 +42,7 @@ I completed a **9-hour course** on [Scrimba](https://scrimba.com/learn/reactrout
     - `apiUtility.js` which has Firebase code.
     - `server.js` which is a fake MirageJS server used to fetch data.
 
-2. The `assets` folder has an `images` folder for the project.
+2. The `public` folder has an `images` folder for the project.
 
 3. The `components` folder has one subfolder and three files:
     - `layouts` - a folder that holds various components used throughout the project. More about it later. [Jump here..]()
@@ -223,7 +223,7 @@ export default function NavBar() {
     return (
         <Navbar>
             <Link className="logoPng" to="/">
-                <img src="/src/assets/images/logog.png" alt="Website Logo" />
+                <img src="/images/logog.png" alt="Website Logo" />
             </Link>
 
             <nav className='navContainer'>
