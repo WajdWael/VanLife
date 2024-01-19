@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import COLORS from '../../styles/colors'
 export const HomeSection = styled.section`
-    background-image: linear-gradient(rgba(0, 0, 0, 0.46), #0000005e),url(/src/assets/images/mainBG.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.46), #0000005e),url(/public/images/mainBG.png);
     background-position: center;
     background-color: rgba(37, 37, 37, 1);
     background-size: cover;
