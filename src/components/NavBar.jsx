@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import COLORS from '../styles/colors'
 import { checkActive } from '../utilities/ActiveCalss'
 
-import logoImage from 'https://vanlife-3cf7c.web.app/logog.png'
-import userIcon from 'https://vanlife-3cf7c.web.app/user.png'
+import logoImage from '/public/images/logog.png'
+import userIcon from '/public/images/user.png'
 
 export default function NavBar() {
     function fakeLogOut() {

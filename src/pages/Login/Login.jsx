@@ -2,7 +2,7 @@ import { useLoaderData, Form, redirect, useActionData, useNavigation } from 'rea
 import { LoginSection } from './Login.styled'
 import { loginUser } from "../../api/apiUtility"
 
-import loginVector from 'https://vanlife-3cf7c.web.app/login.jpg'
+import loginVector from '/public/images/login.jpg'
 
 export function loader({ request }) {
     return new URL(request.url).searchParams.get("message")

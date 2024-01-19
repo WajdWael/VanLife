@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import error404image from 'https://vanlife-3cf7c.web.app/login/oops404.svg'
+import error404image from '/public/images/oops404.svg'
 
 export default function NotFound() {
     return (

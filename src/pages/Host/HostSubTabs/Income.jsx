@@ -1,6 +1,6 @@
 import { IncomeStyle } from "./styles.styled"
 
-import incomeGraph from 'https://vanlife-3cf7c.web.app/login/states.png'
+import incomeGraph from '/public/images/states.png'
 
 export default function Income() {
   const transactionsData = [

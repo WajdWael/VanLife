@@ -1,7 +1,7 @@
 import { BsStarFill } from "react-icons/bs"
 import { ReviewsStyles } from "./styles.styled"
 
-import reviewGraph from 'https://vanlife-3cf7c.web.app/login/reviws.png'
+import reviewGraph from '/public/images/reviws.png'
 
 export default function Reviews() {
   const reviewsData = [

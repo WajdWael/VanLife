@@ -1,7 +1,7 @@
 import { Header } from './About.styled'
 import { Link } from 'react-router-dom'
 
-import ligtedVanImage from 'https://vanlife-3cf7c.web.app/login/lightVan.png'
+import ligtedVanImage from '/public/images/lightVan.png'
 
 const About = () => {
   return (
